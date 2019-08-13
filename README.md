@@ -9,6 +9,7 @@ For the Program to work, install the Necessary packages and note that the progra
 
 # The Python Packages Needed Are:
 pip install opencv-python==3.4.2.16 
+
 pip install flask 
 pip install flask_basicauth 
 pip install RPi.GPIO 
