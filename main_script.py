@@ -232,7 +232,7 @@ def send_mail():
     # And the recipients email Address.
     # Also Assign a new variable called 'body' to contain the body of the email we want to send.
     sender = 'noreplayalansmith@gmail.com'
-    gmail_password = 'ilovepam!100%'
+    gmail_password = ''
     recipients = ['cboy.chinedu@gmail.com','noreplayalansmith@gmail.com']
     body = (content + '\n Click on this link to Access the video Footage \nOnly if A Human Was Present: {}'.format(ip_address))
     
@@ -303,7 +303,7 @@ def pir_mail():
     for i in range(len(li)):
             s = smtplib.SMTP('smtp.gmail.com', 587)
             s.starttls()
-            s.login("noreplayalansmith@gmail.com", "ilovepam!100%")
+            s.login("noreplayalansmith@gmail.com", "")
             message = "Motion Detected From RPI-43A1, \nThe Image Analysis is in Progress.."
             s.sendmail("sender_email_id", li[i], message)
             s.quit()
