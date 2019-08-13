@@ -1,0 +1,7 @@
+loading Voc Model from disk...
+Voc Model took 35.9 seconds
+The Image Analysed are as follows: 
+Human: 98.0%.
+Human: 96.0%.
+Human: 91.0%.
+tie: 30.0%.

@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+     
+    <title> Object Detected </title> 
+ 
+  </head>
+
+  <body style="color: white; background-color:black;">
+
+    <h1>Object Detected by RPI-43A1 </h1>
+    <hr/>
+    	
+
+	<img id="bg" src="{{ url_for('video_feed') }}" style="float:left; width:60%; height:70%;">
+        <br/> 	
+	<p><b><big> Device_Name:</big></b> RPI-43A1. </p>
+	<p><b><big> Location:</big></b> Delta State, Nigeria. </p>
+	<p><b><big> Gps_id:</big></b> long: 6°25'34.5"N lat: 3°25'28.1"E </p> 
+	<p><b><big>  Elevation:</big></b> 47meters. </p> 
+	<p><b><big>  Status:</big></b> Live Stream. </p>
+	<br/>
+	<br/>
+
+	<img src="{{ url_for('static', filename='image.jpg') }}" style="float:right; width:30%; height:30%;">
+    
+  </body>
+</html>
+
+
+
